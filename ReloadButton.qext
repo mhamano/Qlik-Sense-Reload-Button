@@ -1,0 +1,8 @@
+{
+	"name": "Reload Button",
+	"description": "",
+	"type": "visualization",
+	"preview": "images/reload_btn.png",
+	"version": 1,
+	"author": "Masaki Hamano"
+}

@@ -1,0 +1,53 @@
+<style type="text/css">
+.reload_btn {
+	font-size:16px;
+	font-family:Arial;
+	font-weight:normal;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #84bbf3;
+	padding:9px 25px;
+	text-decoration:none;
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	background:-ms-linear-gradient( top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #79bbff), color-stop(100%, #378de5) );
+	background-color:#79bbff;
+	color:#ffffff;
+	display:inline-block;
+	text-shadow:1px 1px 0px #528ecc;
+ 	-webkit-box-shadow:inset 1px 1px 0px 0px #bbdaf7;
+ 	-moz-box-shadow:inset 1px 1px 0px 0px #bbdaf7;
+ 	box-shadow:inset 1px 1px 0px 0px #bbdaf7;
+}.reload_btn:hover {
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	background:-ms-linear-gradient( top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #378de5), color-stop(100%, #79bbff) );
+	background-color:#378de5;
+}.reload_btn:active {
+	position:relative;
+	top:1px;
+}
+</style>
+
+#loading{
+    padding:15px;
+    position: fixed;
+    top:50%;
+    left:50%;
+    filter: alpha(opacity=100);
+    -moz-opacity:0.5;
+    opacity:0.5;
+}
+
+#loading .loadingMsg{
+    text-align:center;
+    padding-top:100px;
+    width:100px;
+    background-image:url("../extensions/ReloadButton/images/gif-load.gif");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+</style>
