@@ -4,7 +4,7 @@ The **Reload Button for Qlik Sense** is an extension which allows you to execute
 
 ## Demo
 
-![Alt text](https://github.com/mhamano/Qlik-Sense-Reload-Button/tree/master/images/demo.png)
+![Alt text](./images/demo.png)
 
 ## Install
 1. Qlik Sense Desktop
@@ -18,7 +18,7 @@ Please refer to the following instruction for importing an extension:
 Following procedure is experimental:
 When you reload a **published** app (not an app in "My work"), the following error occurs. This is because the default security rules of Qlik Sense Server does not allow users to update published apps. 
 
-![Alt text](https://github.com/mhamano/Qlik-Sense-Reload-Button/tree/master/images/error.png)
+![Alt text](./images/error.png)
 
 You can allow published apps to be reloaded and saved by adding a security rule on QMC. For example, following security rule allows any users to execute reload button on published apps in "Everyone" stream.
 
