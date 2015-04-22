@@ -1,6 +1,6 @@
 Reload Button for Qlik Sense
 ====
-The *Reload Button for Qlik Sense* is an extension which allows you to execute road script by pressing a button placed on a Qlik Sense sheet.
+The **Reload Button for Qlik Sense** is an extension which allows you to execute road script by pressing a button placed on a Qlik Sense sheet.
 
 ## Demo
 
@@ -13,10 +13,10 @@ Unzip the downloaded zip file into "C:\Users\%USERNAME%\Documents\Qlik\Sense\Ext
 2. Qlik Sense Server
 Please refer to the following instruction for importing an extension:
 
-[Import Extension]( http://help.qlik.com/sense/en-US/online/#../Subsystems/ManagementConsole/Content/QMC_Resources_Extensions_AddingExtensions.htm?Highlight=add extension "Import Extension")
+	[Import Extension]( http://help.qlik.com/sense/en-US/online/#../Subsystems/ManagementConsole/Content/QMC_Resources_Extensions_AddingExtensions.htm?Highlight=add extension "Import Extension")
 
 Following procedure is experimental:
-When you reload a *published* app (not an app in "My work"), the following error occurs. This is because the default security rules of Qlik Sense Server does not allow users to update published apps. 
+When you reload a **published** app (not an app in "My work"), the following error occurs. This is because the default security rules of Qlik Sense Server does not allow users to update published apps. 
 
 ![Alt text](/images/error.png)
 
@@ -29,11 +29,10 @@ You can allow published apps to be reloaded and saved by adding a security rule 
 |Context|Both in hub and QMC|
 |Actions|Update|
 
-*Please be are that it can cause unexpected results, so apply the setting at your own risk!*
+**Please be are that it can cause unexpected results, so apply the setting at your own risk!**
 
 ## Licence
-
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+The software is provided "AS IS" without warranty of any kind. This project is licensed under the terms of the MIT license.
 
 ## Author
 Masaki Hamano
