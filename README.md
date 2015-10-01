@@ -1,4 +1,10 @@
 Reload Button for Qlik Sense
+
+## Updated
+2015/10/01
+- Added "Partial Reload" function 
+- UI was renewed
+
 ====
 The **Reload Button for Qlik Sense** is an extension which allows you to execute road script by pressing a button placed on a Qlik Sense sheet.
 
