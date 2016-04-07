@@ -19,8 +19,12 @@
     background: #79bbff;
 }
 
-.btn-default  {
+.btn-danger  {
     background: #c94e50;;
+}
+
+.btn-success  {
+    background: #449d44;;
 }
 
 /* Modal design */
