@@ -3,6 +3,6 @@
 	"description": "",
 	"type": "visualization",
 	"preview": "images/reload_btn.png",
-	"version": 1,
+	"version": 1.1,
 	"author": "Masaki Hamano"
 }

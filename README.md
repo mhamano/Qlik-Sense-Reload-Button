@@ -2,9 +2,11 @@ Reload Button for Qlik Sense
 
 ## Updated
 2015/10/01
-- Added "Partial Reload" function 
+- Added "Partial Reload" function
 - UI was renewed
 
+2017/05/11
+- Fixed to be able to execute reloads on QS3.2 SR3
 ====
 The **Reload Button for Qlik Sense** is an extension which allows you to execute road script by pressing a button placed on a Qlik Sense sheet.
 
@@ -22,7 +24,7 @@ Please refer to the following instruction for importing an extension:
 	[Import Extension]( http://help.qlik.com/sense/en-US/online/#../Subsystems/ManagementConsole/Content/QMC_Resources_Extensions_AddingExtensions.htm?Highlight=add extension "Import Extension")
 
 Following procedure is experimental:
-When you reload a **published** app (not an app in "My work"), the following error occurs. This is because the default security rules of Qlik Sense Server does not allow users to update published apps. 
+When you reload a **published** app (not an app in "My work"), the following error occurs. This is because the default security rules of Qlik Sense Server does not allow users to update published apps.
 
 ![Alt text](./images/error.png)
 
