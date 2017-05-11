@@ -31,7 +31,7 @@ You can allow published apps to be reloaded and saved by adding a security rule 
 |Name|Setting|
 |---|---|
 |Resource filter|App*|
-|Conditions|(user.name like "*" and ((resource.resourcetype="App" and resource.stream.name="Everyone")  or (resource.resourcetype="App.Object" and resource.app.stream.name="Everyone")))|
+|Conditions|(((resource.resourcetype="App" and resource.stream.name="Everyone")  or (resource.resourcetype="App.Object" and resource.app.stream.name="Everyone")))|
 |Context|Both in hub and QMC|
 |Actions|Update|
 
